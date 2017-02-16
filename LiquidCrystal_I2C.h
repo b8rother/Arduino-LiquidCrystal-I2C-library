@@ -61,6 +61,10 @@ class LiquidCrystal_I2C : public Print {
 public:
 	/**
 	 * Constructor
+	 */
+	LiquidCrystal_I2C();
+	/**
+	 * Constructor
 	 *
 	 * @param lcd_addr	I2C slave address of the LCD display. Most likely printed on the
 	 *					LCD circuit board, or look in the supplied LCD documentation.
